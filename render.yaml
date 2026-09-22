@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: passiveos
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    envVars:
+      - key: USE_FILE_DB
+        value: "1"
+      - key: SECRET_KEY
+        generateValue: true
+      - key: CORS_ORIGINS
+        value: "*"
