@@ -7,7 +7,7 @@ class Settings(BaseSettings):
     database_name: str = "passive_income"
     secret_key: str = "passive-income-super-secret-key-change-in-prod-2024"
     algorithm: str = "HS256"
-    access_token_expire_minutes: int = 60 * 24 * 7
+    access_token_expire_minutes: int = 60 * 24 * 7  # 7 days
     emergent_llm_key: str = ""
     cors_origins: str = "http://localhost:3000,http://127.0.0.1:3000"
 
