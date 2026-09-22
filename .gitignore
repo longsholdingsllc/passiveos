@@ -1,0 +1,26 @@
+# dependencies
+node_modules/
+frontend/node_modules/
+
+# build output
+dist/
+frontend/dist/
+
+# python
+__pycache__/
+*.py[cod]
+backend/venv/
+.venv/
+
+# local data
+backend/data/
+
+# env
+.env
+.env.*
+!.env.example
+
+# logs / os
+*.log
+.DS_Store
+frontend/tsconfig.tsbuildinfo
