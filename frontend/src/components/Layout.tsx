@@ -4,7 +4,6 @@ import {
   Radio,
   Lightbulb,
   FileText,
-  Calculator,
   GraduationCap,
   Target,
   LogOut,
@@ -17,7 +16,6 @@ const NAV = [
   { to: "/app/streams", label: "Streams", icon: Radio },
   { to: "/app/ideas", label: "Ideas", icon: Lightbulb },
   { to: "/app/content", label: "Content", icon: FileText },
-  { to: "/app/simulator", label: "Simulator", icon: Calculator },
   { to: "/app/coach", label: "Coach", icon: GraduationCap },
   { to: "/app/goals", label: "Goals", icon: Target },
 ];

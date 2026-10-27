@@ -1,6 +1,6 @@
 # PassiveOS — Passive Income Autopilot
 
-Full app: streams, AI ideas/content, DCA simulator, coach, goals.
+Full app: streams, AI ideas/content, coach, goals.
 
 **Default storage:** file-backed (`backend/data/`) — no MongoDB required.
 

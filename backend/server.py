@@ -18,7 +18,7 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(
     title="Passive Income Autopilot API",
-    description="Full-featured passive income platform with AI generators, coaching, DCA simulator, and stream tracking.",
+    description="Full-featured passive income platform with AI generators, coaching, and stream tracking.",
     version="1.0.0",
     lifespan=lifespan,
 )

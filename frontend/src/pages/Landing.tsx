@@ -1,11 +1,10 @@
 import { Link } from "react-router-dom";
-import { TrendingUp, Radio, Lightbulb, Calculator, Target, GraduationCap } from "lucide-react";
+import { TrendingUp, Radio, Lightbulb, Target, GraduationCap } from "lucide-react";
 
 const FEATURES = [
   { icon: Radio, title: "Income Streams", body: "Track every stream — dividends, rentals, digital products — with entries and running totals in one place." },
   { icon: Lightbulb, title: "AI Idea Engine", body: "Generate niche-specific passive income ideas grounded in your existing skills and capital." },
   { icon: GraduationCap, title: "AI Coach", body: "Ask anything about your portfolio and get a structured, numbers-first answer." },
-  { icon: Calculator, title: "DCA Simulator", body: "Model dollar-cost averaging over time and see projected value before you commit capital." },
   { icon: Target, title: "Goal Tracking", body: "Set income targets, track progress against them, and see what each stream contributes." },
   { icon: TrendingUp, title: "Dashboard", body: "Monthly income, stream breakdown, and progress-to-goal — always current." },
 ];
@@ -20,7 +19,7 @@ export default function Landing() {
         </div>
         <h1>Your passive income, on autopilot.</h1>
         <p>
-          Track every stream, generate ideas with AI, simulate dollar-cost averaging, and
+          Track every stream, generate ideas with AI, and
           get coached toward your income goal — in one workspace.
         </p>
         <div className="btn-row">
